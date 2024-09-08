@@ -4,7 +4,7 @@ The following code-block will be rendered as a Mermaid diagram:
 classDiagram
     class ReprodutorMusical {
         <<interface>>
-        + tocar() : void 
+        + tocar() void 
         + pausar() : void
         + selecionarMusica(musica : String) : void
     }
