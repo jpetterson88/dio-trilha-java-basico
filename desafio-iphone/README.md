@@ -2,19 +2,22 @@ The following code-block will be rendered as a Mermaid diagram:
 
 ```mermaid
 classDiagram
-    interface ReprodutorMusical {
+    class ReprodutorMusical {
+        <<interface>>
         + tocar() : void 
         + pausar() : void
         + selecionarMusica(musica : String) : void
     }
 
-    interface AparelhoTelefonico {
+    class AparelhoTelefonico {
+        <<interface>>
         + ligar(numero : String) : void
         + atender() : void
         + iniciarCorreioVoz() : void
     }
 
-    interface NavegadorInternet {
+    class NavegadorInternet {
+        <<interface>>
         + exibirPagina(url : String) : void
         + adicionarNovaAba() : void
         + atualizarPagina() : void
